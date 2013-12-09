@@ -1,6 +1,6 @@
 from flask import Flask
 
-def Config(object):
+class Config(object):
     DEBUG = True
     HOST = '0.0.0.0'
     PORT = '5000'
